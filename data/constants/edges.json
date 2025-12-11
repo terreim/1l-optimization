@@ -1,0 +1,817 @@
+{
+  "countries": {
+    "China": {
+      "time_windows": [
+        {
+            "start_time": "06:00",
+            "end_time": "09:00",
+            "delay_factor": 1.3
+        },
+        {
+            "start_time": "17:00",
+            "end_time": "19:00",
+            "delay_factor": 1.4
+        }
+      ],
+      "routes": {
+        "NNG-KMG": {
+            "distance": 776,
+            "base_time": 515,
+            "road_type": "highway"
+        },
+        "NNG-CV001": {
+            "distance": 213,
+            "base_time": 152,
+            "road_type": "highway"
+        },
+        "NNG-CV002": {
+            "distance": 306,
+            "base_time": 218,
+            "road_type": "highway"
+        },
+        "NNG-CV003": {
+            "distance": 797,
+            "base_time": 525,
+            "road_type": "highway"
+        },
+        "NNG-CL001": {
+            "distance": 1344,
+            "base_time": 879,
+            "road_type": "highway"
+        },
+        "KMG-CV001": {
+            "distance": 782,
+            "base_time": 505,
+            "road_type": "highway"
+        },
+        "KMG-CV002": {
+            "distance": 597,
+            "base_time": 401,
+            "road_type": "highway"
+        },
+        "KMG-CV003": {
+            "distance": 401,
+            "base_time": 293,
+            "road_type": "highway"
+        },
+        "KMG-CL001": {
+            "distance": 664,
+            "base_time": 452,
+            "road_type": "highway"
+        }
+      }
+    },
+    "Vietnam": {
+      "time_windows": [
+        {
+            "start_time": "07:00",
+            "end_time": "09:00",
+            "delay_factor": 1.2
+        },
+        {
+            "start_time": "17:00",
+            "end_time": "19:00",
+            "delay_factor": 1.5
+        }
+      ],
+      "routes": {
+        "HNI-CV001": {
+            "distance": 171,
+            "base_time": 184,
+            "road_type": "highway"
+        },
+        "HNI-CV002": {
+            "distance": 318,
+            "base_time": 384,
+            "road_type": "highway"
+        },
+        "HNI-CV003": {
+            "distance": 290,
+            "base_time": 268,
+            "road_type": "highway"
+        },
+        "HNI-VL001": {
+            "distance": 470,
+            "base_time": 644,
+            "road_type": "highway"
+        },
+        "HNI-VL003": {
+            "distance": 473,
+            "base_time": 511,
+            "road_type": "highway"
+        },
+        "HNI-VL002": {
+            "distance": 663,
+            "base_time": 691,
+            "road_type": "highway"
+        },
+        "HNI-VC001": {
+            "distance": 1744,
+            "base_time": 1740,
+            "road_type": "highway"
+        },
+        "HNI-HPG": {
+            "distance": 120,
+            "base_time": 105,
+            "road_type": "highway"
+        },
+        "HNI-DNA": {
+            "distance": 766,
+            "base_time": 766,
+            "road_type": "highway"
+        },
+        "HNI-HCMC": {
+            "distance": 1682,
+            "base_time": 1680,
+            "road_type": "highway"
+        },
+        "HPG-CV001": {
+            "distance": 192,
+            "base_time": 192,
+            "road_type": "highway"
+        },
+        "HPG-CV002": {
+            "distance": 335,
+            "base_time": 431,
+            "road_type": "highway"
+        },
+        "HPG-CV003": {
+            "distance": 196,
+            "base_time": 220,
+            "road_type": "highway"
+        },
+        "HPG-VL001": {
+            "distance": 587,
+            "base_time": 736,
+            "road_type": "highway"
+        },
+        "HPG-VL003": {
+            "distance": 510,
+            "base_time": 570,
+            "road_type": "highway"
+        },
+        "HPG-VL002": {
+            "distance": 739,
+            "base_time": 754,
+            "road_type": "highway"
+        },
+        "HPG-VC001": {
+            "distance": 1820,
+            "base_time": 1800,
+            "road_type": "highway"
+        },
+        "HPG-DNA": {
+            "distance": 841,
+            "base_time": 828,
+            "road_type": "highway"
+        },
+        "HPG-HCMC": {
+            "distance": 1758,
+            "base_time": 1740,
+            "road_type": "highway"
+        },
+        "DNA-CV001": {
+            "distance": 920,
+            "base_time": 885,
+            "road_type": "highway"
+        },
+        "DNA-CV002": {
+            "distance": 1068,
+            "base_time": 1090,
+            "road_type": "highway"
+        },
+        "DNA-CV003": {
+            "distance": 1050,
+            "base_time": 996,
+            "road_type": "highway"
+        },
+        "DNA-VL001": {
+            "distance": 1120,
+            "base_time": 1269,
+            "road_type": "highway"
+        },
+        "DNA-VL003": {
+            "distance": 715,
+            "base_time": 794,
+            "road_type": "highway"
+        },
+        "DNA-VL002": {
+            "distance": 243,
+            "base_time": 268,
+            "road_type": "highway"
+        },
+        "DNA-VC001": {
+            "distance": 987,
+            "base_time": 989,
+            "road_type": "highway"
+        },
+        "DNA-HCMC": {
+            "distance": 925,
+            "base_time": 891,
+            "road_type": "highway"
+        },
+        "HCMC-CV001": {
+            "distance": 1837,
+            "base_time": 1740,
+            "road_type": "highway"
+        },
+        "HCMC-CV002": {
+            "distance": 1985,
+            "base_time": 1920,
+            "road_type": "highway"
+        },
+        "HCMC-CV003": {
+            "distance": 1966,
+            "base_time": 1920,
+            "road_type": "highway"
+        },
+        "HCMC-VL001": {
+            "distance": 2037,
+            "base_time": 2220,
+            "road_type": "highway"
+        },
+        "HCMC-VL003": {
+            "distance": 1624,
+            "base_time": 1680,
+            "road_type": "highway"
+        },
+        "HCMC-VL002": {
+            "distance": 1161,
+            "base_time": 1159,
+            "road_type": "highway"
+        },
+        "HCMC-VC001": {
+            "distance": 62.1,
+            "base_time": 88,
+            "road_type": "highway"
+        }
+      }
+    },
+    "Laos": {
+      "time_windows": [
+        {
+            "start_time": "06:00",
+            "end_time": "09:00",
+            "delay_factor": 1.5
+        },
+        {
+            "start_time": "16:30",
+            "end_time": "19:30",
+            "delay_factor": 1.8
+        }
+      ],
+      "routes": {
+        "VTI-CL001": {
+            "distance": 594,
+            "base_time": 864,
+            "road_type": "highway"
+        },
+        "VTI-VL001": {
+            "distance": 665,
+            "base_time": 930,
+            "road_type": "highway"
+        },
+        "VTI-VL002": {
+            "distance": 645,
+            "base_time": 621,
+            "road_type": "highway"
+        },
+        "VTI-VL003": {
+            "distance": 482,
+            "base_time": 720,
+            "road_type": "highway"
+        },
+        "VTI-LC001": {
+            "distance": 831,
+            "base_time": 869,
+            "road_type": "highway"
+        },
+        "VTI-LM001": {
+            "distance": 756,
+            "base_time": 1177,
+            "road_type": "highway"
+        },
+        "LM001-CL001": {
+            "distance": 196,
+            "base_time": 378,
+            "road_type": "highway"
+        },
+        "LM001-VL001": {
+            "distance": 423,
+            "base_time": 725,
+            "road_type": "highway"
+        },
+        "LM001-VL003": {
+            "distance": 763,
+            "base_time": 1335,
+            "road_type": "highway"
+        },
+        "LM001-VL002": {
+            "distance": 1360,
+            "base_time": 1800,
+            "road_type": "highway"
+        },
+        "LM001-LC001": {
+            "distance": 1539,
+            "base_time": 1980,
+            "road_type": "highway"
+        },
+        "LT001-VL002": {
+            "distance": 244,
+            "base_time": 252,
+            "road_type": "highway"
+        },
+        "LT001-LC001": {
+            "distance": 410,
+            "base_time": 414,
+            "road_type": "highway"
+        },
+        "LC001-VL002": {
+            "distance": 465,
+            "base_time": 624,
+            "road_type": "highway"
+        },
+        "LC001-VL003": {
+            "distance": 1020,
+            "base_time": 1227,
+            "road_type": "highway"
+        },
+        "LC001-VL001": {
+            "distance": 1445,
+            "base_time": 1740,
+            "road_type": "highway"
+        },
+        "LC001-CL001": {
+            "distance": 1387,
+            "base_time": 1740,
+            "road_type": "highway"
+        },
+        "LC001-LM001": {
+            "distance": 1534,
+            "base_time": 2040,
+            "road_type": "highway"
+        }
+      }
+    },
+    "Cambodia": {
+      "time_windows": [
+        {
+            "start_time": "07:00",
+            "end_time": "10:00",
+            "delay_factor": 1.2
+        },
+        {
+            "start_time": "17:00",
+            "end_time": "19:30",
+            "delay_factor": 1.3
+        }
+      ],
+      "routes": {
+        "PPN-LC001": {
+            "distance": 437,
+            "base_time": 443,
+            "road_type": "highway"
+        },
+        "PPN-CT002": {
+            "distance": 494,
+            "base_time": 465,
+            "road_type": "highway"
+        },
+        "PPN-CT001": {
+            "distance": 417,
+            "base_time": 375,
+            "road_type": "highway"
+        },
+        "PPN-CT003": {
+            "distance": 390,
+            "base_time": 343,
+            "road_type": "highway"
+        },
+        "PPN-VC001": {
+            "distance": 165,
+            "base_time": 175,
+            "road_type": "highway"
+        },
+        "PPN-SHV": {
+            "distance": 215,
+            "base_time": 158,
+            "road_type": "highway"
+        },
+        "SHV-LC001": {
+            "distance": 631,
+            "base_time": 570,
+            "road_type": "highway"
+        },
+        "SHV-CT002": {
+            "distance": 695,
+            "base_time": 566,
+            "road_type": "highway"
+        },
+        "SHV-CT001": {
+            "distance": 596,
+            "base_time": 486,
+            "road_type": "highway"
+        },
+        "SHV-CT003": {
+            "distance": 448,
+            "base_time": 427,
+            "road_type": "highway"
+        },
+        "SHV-VC001": {
+            "distance": 388,
+            "base_time": 315,
+            "road_type": "highway"
+        }
+      }
+    },
+    "Thailand": {
+      "time_windows": [
+        {
+            "start_time": "06:30",
+            "end_time": "09:30",
+            "delay_factor": 1.15
+        },
+        {
+            "start_time": "16:30", 
+            "end_time": "19:30",
+            "delay_factor": 1.35
+        }
+      ],
+      "routes": {
+        "CIM-KKE": {
+            "distance": 741,
+            "base_time": 716,
+            "road_type": "highway"
+        },
+        "CIM-BGK": {
+            "distance": 749,
+            "base_time": 681,
+            "road_type": "highway"
+        },
+        "CIM-LCB": {
+            "distance": 850,
+            "base_time": 69,
+            "road_type": "highway"
+        },
+        "KKE-BGK": {
+            "distance": 407,
+            "base_time": 330,
+            "road_type": "highway"
+        },
+        "KKE-LCB": {
+            "distance": 444,
+            "base_time": 410,
+            "road_type": "highway"
+        },
+        "BGK-LCB": {
+            "distance": 125,
+            "base_time": 84,
+            "road_type": "highway"
+        },
+        "BGK-MT003": {
+            "distance": 185,
+            "base_time": 165,
+            "road_type": "highway"
+        },
+        "BGK-MT002": {
+            "distance": 496,
+            "base_time": 420,
+            "road_type": "highway"
+        },
+        "BGK-MT001": {
+            "distance": 850,
+            "base_time": 752,
+            "road_type": "highway"
+        },
+        "BGK-LT001": {
+            "distance": 646,
+            "base_time": 567,
+            "road_type": "highway"
+        },
+        "BGK-LT002": {
+            "distance": 777,
+            "base_time": 655,
+            "road_type": "highway"
+        },
+        "BGK-CT002": {
+            "distance": 450,
+            "base_time": 374,
+            "road_type": "highway"
+        },
+        "BGK-CT001": {
+            "distance": 240,
+            "base_time": 207,
+            "road_type": "highway"
+        },
+        "BGK-CT003": {
+            "distance": 315,
+            "base_time": 252,
+            "road_type": "highway"
+        },
+        "BGK-TM001": {
+            "distance": 1019,
+            "base_time": 847,
+            "road_type": "highway"
+        },
+        "BGK-TM002": {
+            "distance": 1227,
+            "base_time": 995,
+            "road_type": "highway"
+        },
+        "CIM-MT003": {
+            "distance": 792,
+            "base_time": 760,
+            "road_type": "highway"
+        },
+        "CIM-MT002": {
+            "distance": 422,
+            "base_time": 395,
+            "road_type": "highway"
+        },
+        "CIM-MT001": {
+            "distance": 307,
+            "base_time": 346,
+            "road_type": "highway"
+        },
+        "CIM-LT001": {
+            "distance": 714,
+            "base_time": 754,
+            "road_type": "highway"
+        },
+        "CIM-LT002": {
+            "distance": 309,
+            "base_time": 342,
+            "road_type": "highway"
+        },
+        "CIM-CT002": {
+            "distance": 940,
+            "base_time": 871,
+            "road_type": "highway"
+        },
+        "CIM-CT001": {
+            "distance": 911,
+            "base_time": 831,
+            "road_type": "highway"
+        },
+        "CIM-CT003": {
+            "distance": 989,
+            "base_time": 905,
+            "road_type": "highway"
+        },
+        "CIM-TM001": {
+            "distance": 1740,
+            "base_time": 1500,
+            "road_type": "highway"
+        },
+        "CIM-TM002": {
+            "distance": 1948,
+            "base_time": 1620,
+            "road_type": "highway"
+        },
+        "KKE-MT003": {
+            "distance": 559,
+            "base_time": 490,
+            "road_type": "highway"
+        },
+        "KKE-MT002": {
+            "distance": 588,
+            "base_time": 554,
+            "road_type": "highway"
+        },
+        "KKE-MT001": {
+            "distance": 822,
+            "base_time": 783,
+            "road_type": "highway"
+        },
+        "KKE-LT001": {
+            "distance": 258,
+            "base_time": 265,
+            "road_type": "highway"
+        },
+        "KKE-LT002": {
+            "distance": 747,
+            "base_time": 642,
+            "road_type": "highway"
+        },
+        "KKE-CT002": {
+            "distance": 281,
+            "base_time": 241,
+            "road_type": "highway"
+        },
+        "KKE-CT001": {
+            "distance": 310,
+            "base_time": 301,
+            "road_type": "highway"
+        },
+        "KKE-CT003": {
+            "distance": 424,
+            "base_time": 409,
+            "road_type": "highway"
+        },
+        "KKE-TM001": {
+            "distance": 1390,
+            "base_time": 1153,
+            "road_type": "highway"
+        },
+        "KKE-TM002": {
+            "distance": 1598,
+            "base_time": 1307,
+            "road_type": "highway"
+        },
+        "LCB-MT003": {
+            "distance": 316,
+            "base_time": 253,
+            "road_type": "highway"
+        },
+        "LCB-MT002": {
+            "distance": 601,
+            "base_time": 489,
+            "road_type": "highway"
+        },
+        "LCB-MT001": {
+            "distance": 956,
+            "base_time": 811,
+            "road_type": "highway"
+        },
+        "LCB-LT001": {
+            "distance": 693,
+            "base_time": 635,
+            "road_type": "highway"
+        },
+        "LCB-LT002": {
+            "distance": 892,
+            "base_time": 752,
+            "road_type": "highway"
+        },
+        "LCB-CT002": {
+            "distance": 441,
+            "base_time": 380,
+            "road_type": "highway"
+        },
+        "LCB-CT001": {
+            "distance": 242,
+            "base_time": 235,
+            "road_type": "highway"
+        },
+        "LCB-CT003": {
+            "distance": 242,
+            "base_time": 201,
+            "road_type": "highway"
+        },
+        "LCB-TM001": {
+            "distance": 1099,
+            "base_time": 914,
+            "road_type": "highway"
+        },
+        "LCB-TM002": {
+            "distance": 1307,
+            "base_time": 1066,
+            "road_type": "highway"
+        }
+      }
+    },
+    "Myanmar": {
+      "time_windows": [
+        {
+            "start_time": "07:00",
+            "end_time": "10:00",
+            "delay_factor": 1.3
+        },
+        {
+            "start_time": "16:30",
+            "end_time": "19:30", 
+            "delay_factor": 1.4
+        }
+      ],
+      "routes": {
+        "MDL-YGN": {
+            "distance": 626,
+            "base_time": 480,
+            "road_type": "highway"
+        },
+        "MDL-KWT": {
+            "distance": 1681,
+            "base_time": 1800,
+            "road_type": "highway"
+        },
+        "YGN-KWT": {
+            "distance": 1273,
+            "base_time": 1500,
+            "road_type": "highway"
+        },
+        "MDL-MT002": {
+            "distance": 819,
+            "base_time": 740,
+            "road_type": "highway"
+        },
+        "MDL-MT003": {
+            "distance": 1168,
+            "base_time": 1190,
+            "road_type": "highway"
+        },
+        "MDL-MT001": {
+            "distance": 856,
+            "base_time": 1334,
+            "road_type": "highway"
+        },
+        "MDL-LM001": {
+            "distance": 876,
+            "base_time": 1362,
+            "road_type": "highway"
+        },
+        "YGN-MT002": {
+            "distance": 412,
+            "base_time": 469,
+            "road_type": "highway"
+        },
+        "YGN-MT003": {
+            "distance": 758,
+            "base_time": 902,
+            "road_type": "highway"
+        },
+        "YGN-MT001": {
+            "distance": 1243,
+            "base_time": 1560,
+            "road_type": "highway"
+        },
+        "YGN-LM001": {
+            "distance": 1227,
+            "base_time": 1620,
+            "road_type": "highway"
+        },
+        "KWT-MT002": {
+            "distance": 1080,
+            "base_time": 1336,
+            "road_type": "highway"
+        },
+        "KWT-MT003": {
+            "distance": 792,
+            "base_time": 1081,
+            "road_type": "highway"
+        },
+        "KWT-MT001": {
+            "distance": 2121,
+            "base_time": 2760,
+            "road_type": "highway"
+        },
+        "KWT-LM001": {
+            "distance": 2137,
+            "base_time": 2760,
+            "road_type": "highway"
+        }
+      }
+    },
+    "Malaysia": {
+      "time_windows": [
+        {
+            "start_time": "07:00",
+            "end_time": "09:30",
+            "delay_factor": 1.4
+        },
+        {
+            "start_time": "17:00",
+            "end_time": "19:30",
+            "delay_factor": 1.6
+        }
+      ],
+      "routes": {
+        "KLP-TM001": {
+            "distance": 475,
+            "base_time": 325,
+            "road_type": "highway"
+        },
+        "KLP-TM002": {
+            "distance": 409,
+            "base_time": 344,
+            "road_type": "highway"
+        },
+        "KLP-MS001": {
+            "distance": 336,
+            "base_time": 223,
+            "road_type": "highway"
+        }
+      }
+    },
+    "Singapore": {
+      "time_windows": [
+        {
+            "start_time": "07:30",
+            "end_time": "09:30",
+            "delay_factor": 1.6
+        },
+        {
+            "start_time": "17:30",
+            "end_time": "19:30",
+            "delay_factor": 1.8
+        }
+      ],
+      "routes": {
+        "SNG-MS001": {
+            "distance": 21.5,
+            "base_time": 25,
+            "road_type": "highway"
+        }
+      } 
+    }
+  }
+}

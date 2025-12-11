@@ -1,0 +1,714 @@
+{
+    "locations": {
+        "depots": [
+        {
+            "id": "NNG",
+            "name": "Nanning",
+            "country": "China",
+            "type": "depot",
+            "operating_hours": {
+            "start": "00:00",
+            "end": "24:00"
+          }
+        },
+        {
+            "id": "KMG",
+            "name": "Kunming",
+            "country": "China",
+            "type": "depot",
+            "operating_hours": {
+            "start": "00:00",
+            "end": "24:00"
+            }
+        },
+        {
+            "id": "HNI",
+            "name": "Hanoi",
+            "country": "Vietnam",
+            "type": "depot",
+            "operating_hours": {
+            "start": "00:00",
+            "end": "24:00"
+          }
+        },
+        {
+            "id": "HPG",
+            "name": "HaiPhong",
+            "country": "Vietnam",
+            "type": "depot",
+            "operating_hours": {
+            "start": "00:00",
+            "end": "24:00"
+            }
+        },
+        {
+            "id": "DNA",
+            "name": "Danang",
+            "country": "Vietnam",
+            "type": "depot",
+            "operating_hours": {
+            "start": "00:00",
+            "end": "24:00"
+          }
+        },
+        {
+            "id": "HCMC",
+            "name": "HoChiMinhCity",
+            "country": "Vietnam",
+            "type": "depot",
+            "operating_hours": {
+            "start": "00:00",
+            "end": "24:00"
+            }
+        },
+        {
+            "id": "VTI",
+            "name": "Vientiane",
+            "country": "Laos",
+            "type": "depot",
+            "operating_hours": {
+            "start": "00:00",
+            "end": "24:00"
+          }
+        },
+        {
+            "id": "YGN",
+            "name": "Yangon",
+            "country": "Myanmar",
+            "type": "depot",
+            "operating_hours": {
+            "start": "00:00",
+            "end": "24:00"
+            }
+        },
+        {
+            "id": "KWT",
+            "name": "Kawthaung",
+            "country": "Myanmar",
+            "type": "depot",
+            "operating_hours": {
+            "start": "00:00",
+            "end": "24:00"
+          }
+        },
+        {
+            "id": "MDL",
+            "name": "Mandalay",
+            "country": "Myanmar",
+            "type": "depot",
+            "operating_hours": {
+            "start": "00:00",
+            "end": "24:00"
+            }
+        },
+        {
+            "id": "PPN",
+            "name": "PhnomPenh",
+            "country": "Cambodia",
+            "type": "depot",
+            "operating_hours": {
+            "start": "00:00",
+            "end": "24:00"
+          }
+        },
+        {
+            "id": "SHV",
+            "name": "Sihanoukville",
+            "country": "Cambodia",
+            "type": "depot",
+            "operating_hours": {
+            "start": "00:00",
+            "end": "24:00"
+            }
+        },
+        {
+            "id": "CIM",
+            "name": "ChiangMai",
+            "country": "Thailand",
+            "type": "depot",
+            "operating_hours": {
+            "start": "00:00",
+            "end": "24:00"
+          }
+        },
+        {
+            "id": "KKE",
+            "name": "KhonKaen",
+            "country": "Thailand",
+            "type": "depot",
+            "operating_hours": {
+            "start": "00:00",
+            "end": "24:00"
+            }
+        },
+        {
+            "id": "BGK",
+            "name": "Bangkok",
+            "country": "Thailand",
+            "type": "depot",
+            "operating_hours": {
+            "start": "00:00",
+            "end": "24:00"
+          }
+        },
+        {
+            "id": "LCB",
+            "name": "LaemChabang",
+            "country": "Cambodia",
+            "type": "depot",
+            "operating_hours": {
+            "start": "00:00",
+            "end": "24:00"
+            }
+        },
+        {
+            "id": "KLP",
+            "name": "KualaLumpur",
+            "country": "Malaysia",
+            "type": "depot",
+            "operating_hours": {
+            "start": "00:00",
+            "end": "24:00"
+          }
+        },
+        {
+            "id": "SNG",
+            "name": "PortOfSingapore",
+            "country": "Singapore",
+            "type": "depot",
+            "operating_hours": {
+            "start": "00:00",
+            "end": "24:00"
+            }
+        }
+      ],
+        "border_crossings": [
+        {
+            "id": "CV001", 
+            "name": "Pingxiang-Dong Dang",
+            "countries": ["China", "Vietnam"],
+            "customs_fees": {
+                "base_fee": 160,
+                "tax_of_goods_not_transit": 0.1 
+            },
+            "operating_hours": {
+                "start": "05:30",
+                "end": "21:00"
+                
+            },
+            "processing_times": {
+                "inbound": {
+                    "min": 220,
+                    "typical": 420,
+                    "max": 720
+                },
+                "outbound": {
+                    "min": 80, 
+                    "typical": 120,
+                    "max": 360
+                }
+            }
+        },
+        {
+            "id": "CV002",
+            "name": "Longbang-Tra Linh", 
+            "countries": ["China", "Vietnam"],
+            "operating_hours": {
+                "start": "05:30",
+                "end": "21:00"
+            },
+            "customs_fees": {
+                "base_fee": 160,
+                "tax_of_goods_not_transit": 0.1 
+            },
+            "processing_times": {
+                "inbound": {
+                    "min": 220,
+                    "typical": 420,
+                    "max": 720
+                },
+                "outbound": {
+                    "min": 80, 
+                    "typical": 120,
+                    "max": 360
+                }
+            }
+        },
+        {
+            "id": "CV003",
+            "name": "Hekou-Lao Cai",
+            "countries": ["China", "Vietnam"], 
+            "operating_hours": {
+                "start": "05:30",
+                "end": "21:00"
+            },
+            "customs_fees": {
+                "base_fee": 160,
+                "tax_of_goods_not_transit": 0.1 
+            },
+            "processing_times": {
+                "inbound": {
+                    "min": 180,
+                    "typical": 360,
+                    "max": 720
+                },
+                "outbound": {
+                    "min": 80, 
+                    "typical": 120,
+                    "max": 360
+                }
+            }
+        },
+        {
+            "id": "CL001",
+            "name": "Mohan-Boten",
+            "countries": ["China", "Laos"],
+            "operating_hours": {
+                "start": "08:00", 
+                "end": "18:00"
+            },
+            "customs_fees": {
+                "base_fee": 162,
+                "tax_of_goods_not_transit": 0.1 
+            },
+            "processing_times": {
+                "inbound": {
+                    "min": 120,
+                    "typical": 360,
+                    "max": 720
+                },
+                "outbound": {
+                    "min": 30, 
+                    "typical": 90,
+                    "max": 240
+                }
+            }
+        },
+        {
+            "id": "VL001",
+            "name": "Tay Trang-Taichang",
+            "countries": ["Vietnam", "Laos"],
+            "operating_hours": {
+                "start": "06:00",
+                "end": "20:00"
+            },
+            "customs_fees": {
+                "base_fee": 162,
+                "tax_of_goods_not_transit": 0.1 
+            },
+            "processing_times": {
+                "inbound": {
+                    "min": 120,
+                    "typical": 360,
+                    "max": 720
+                },
+                "outbound": {
+                    "min": 30, 
+                    "typical": 90,
+                    "max": 240
+                }
+            }
+        },
+        {
+            "id": "VL002",
+            "name": "Lao Bao-Dansavan",
+            "countries": ["Vietnam", "Laos"],
+            "operating_hours": {
+                "start": "06:00",
+                "end": "20:00"
+            },
+            "customs_fees": {
+                "base_fee": 162,
+                "tax_of_goods_not_transit": 0.1 
+            },
+            "processing_times": {
+                "inbound": {
+                    "min": 120,
+                    "typical": 360,
+                    "max": 720
+                },
+                "outbound": {
+                    "min": 30, 
+                    "typical": 90,
+                    "max": 240
+                }
+            }
+        },
+        {
+            "id": "VL003",
+            "name": "Nam Can-Nam Khan",
+            "countries": ["Vietnam", "Laos"],
+            "operating_hours": {
+                "start": "06:00",
+                "end": "20:00"
+            },
+            "customs_fees": {
+                "base_fee": 162,
+                "tax_of_goods_not_transit": 0.1 
+            },
+            "processing_times": {
+                "inbound": {
+                    "min": 120,
+                    "typical": 360,
+                    "max": 720
+                },
+                "outbound": {
+                    "min": 30, 
+                    "typical": 90,
+                    "max": 240
+                }
+            }
+        },
+        {
+            "id": "VC001",
+            "name": "Moc Bai-Bavet",
+            "countries": ["Vietnam", "Cambodia"],
+            "operating_hours": {
+                "start": "07:00",
+                "end": "22:00"
+            },
+            "customs_fees": {
+                "base_fee": 160,
+                "tax_of_goods_not_transit": 0.1 
+            },
+            "processing_times": {
+                "inbound": {
+                    "min": 120,
+                    "typical": 240,
+                    "max": 720
+                },
+                "outbound": {
+                    "min": 45, 
+                    "typical": 90,
+                    "max": 240
+                }
+            }
+        },
+        {
+            "id": "LC001",
+            "name": "Nong Nok Khiene-Trapaingkriel",
+            "countries": ["Laos", "Cambodia"],
+            "operating_hours": {
+                "start": "06:00",
+                "end": "22:00"
+            },
+            "customs_fees": {
+                "base_fee": 160,
+                "tax_of_goods_not_transit": 0.1 
+            },
+            "processing_times": {
+                "inbound": {
+                    "min": 120,
+                    "typical": 360,
+                    "max": 720
+                },
+                "outbound": {
+                    "min": 30, 
+                    "typical": 90,
+                    "max": 240
+                }
+            }
+        },
+        {
+            "id": "LT001",
+            "name": "Second Thai - Lao Friendship Bridge",
+            "countries": ["Laos", "Thailand"],
+            "operating_hours": {
+                "start": "06:00",
+                "end": "22:00"
+            },
+            "customs_fees": {
+                "base_fee": 161,
+                "tax_of_goods_not_transit": 0.07 
+            },
+            "processing_times": {
+                "inbound": {
+                    "min": 120,
+                    "typical": 240,
+                    "max": 360
+                },
+                "outbound": {
+                    "min": 30, 
+                    "typical": 60,
+                    "max": 120
+                }
+            }
+        },
+        {
+            "id": "LT002",
+            "name": "Ban Huak Crossing",
+            "countries": ["Laos", "Thailand"],
+            "operating_hours": {
+                "start": "06:00",
+                "end": "22:00"
+            },
+            "customs_fees": {
+                "base_fee": 161,
+                "tax_of_goods_not_transit": 0.07 
+            },
+            "processing_times": {
+                "inbound": {
+                    "min": 120,
+                    "typical": 240,
+                    "max": 360
+                },
+                "outbound": {
+                    "min": 30, 
+                    "typical": 60,
+                    "max": 120
+                }
+            }
+        },
+        {
+            "id": "LM001",
+            "name": "Laos - Myanmar Friendship Bridge",
+            "countries": ["Laos", "Myanmar"],
+            "operating_hours": {
+                "start": "07:00",
+                "end": "19:00"
+            },
+            "customs_fees": {
+                "base_fee": 160,
+                "tax_of_goods_not_transit": 0.12 
+            },
+            "processing_times": {
+                "inbound": {
+                    "min": 200,
+                    "typical": 400,
+                    "max": 800
+                },
+                "outbound": {
+                    "min": 60, 
+                    "typical": 120,
+                    "max": 240
+                }
+            }
+        },
+        {
+            "id": "CT001",
+            "name": "Poipet-Aranyaprathet",
+            "countries": ["Cambodia", "Thailand"],
+            "operating_hours": {
+                "start": "06:00",
+                "end": "22:00"
+            },
+            "customs_fees": {
+                "base_fee": 160,
+                "tax_of_goods_not_transit": 0.07 
+            },
+            "processing_times": {
+                "inbound": {
+                    "min": 120,
+                    "typical": 240,
+                    "max": 360
+                },
+                "outbound": {
+                    "min": 30, 
+                    "typical": 60,
+                    "max": 120
+                }
+            }
+        },
+        {
+            "id": "CT002",
+            "name": "O Smach-Chong Chom",
+            "countries": ["Cambodia", "Thailand"],
+            "operating_hours": {
+                "start": "06:00",
+                "end": "22:00"
+            },
+            "customs_fees": {
+                "base_fee": 160,
+                "tax_of_goods_not_transit": 0.07 
+            },
+            "processing_times": {
+                "inbound": {
+                    "min": 120,
+                    "typical": 240,
+                    "max": 360
+                },
+                "outbound": {
+                    "min": 30, 
+                    "typical": 60,
+                    "max": 120
+                }
+            }
+        },
+        {
+            "id": "CT003",
+            "name": "Phsar Prum-Ban Pakkad",
+            "countries": ["Cambodia", "Thailand"],
+            "operating_hours": {
+                "start": "06:00",
+                "end": "22:00"
+            },
+            "customs_fees": {
+                "base_fee": 160,
+                "tax_of_goods_not_transit": 0.07 
+            },
+            "processing_times": {
+                "inbound": {
+                    "min": 120,
+                    "typical": 240,
+                    "max": 360
+                },
+                "outbound": {
+                    "min": 30, 
+                    "typical": 60,
+                    "max": 120
+                }
+            }
+        },
+        {
+            "id": "MT001",
+            "name": "Tachileik-Mae Sai 1",
+            "countries": ["Myanmar", "Thailand"],
+            "operating_hours": {
+                "start": "06:30",
+                "end": "21:00"
+            },
+            "customs_fees": {
+                "base_fee": 160,
+                "tax_of_goods_not_transit": 0.12 
+            },
+            "processing_times": {
+                "inbound": {
+                    "min": 120,
+                    "typical": 240,
+                    "max": 360
+                },
+                "outbound": {
+                    "min": 30, 
+                    "typical": 60,
+                    "max": 120
+                }
+            }
+        },
+        {
+            "id": "MT002",
+            "name": "Myawaddy-Mae Sot 1",
+            "countries": ["Myanmar", "Thailand"],
+            "operating_hours": {
+                "start": "05:30",
+                "end": "20:30"
+            },
+            "customs_fees": {
+                "base_fee": 160,
+                "tax_of_goods_not_transit": 0.12 
+            },
+            "processing_times": {
+                "inbound": {
+                    "min": 120,
+                    "typical": 240,
+                    "max": 360
+                },
+                "outbound": {
+                    "min": 30, 
+                    "typical": 60,
+                    "max": 120
+                }
+            }
+        },
+        {
+            "id": "MT003",
+            "name": "Singkhon Pass",
+            "countries": ["Myanmar", "Thailand"],
+            "operating_hours": {
+                "start": "07:30",
+                "end": "21:00"
+            },
+            "customs_fees": {
+                "base_fee": 160,
+                "tax_of_goods_not_transit": 0.12 
+            },
+            "processing_times": {
+                "inbound": {
+                    "min": 120,
+                    "typical": 240,
+                    "max": 360
+                },
+                "outbound": {
+                    "min": 30, 
+                    "typical": 60,
+                    "max": 120
+                }
+            }
+        },
+        {
+            "id": "TM001",
+            "name": "Sadao-Bukit Kayu Hitam",
+            "countries": ["Thailand", "Malaysia"],
+            "operating_hours": {
+                "start": "05:00",
+                "end": "23:00"
+            },
+            "customs_fees": {
+                "base_fee": 158,
+                "tax_of_goods_not_transit": 0.1 
+            },
+            "processing_times": {
+                "inbound": {
+                    "min": 100,
+                    "typical": 180,
+                    "max": 360
+                },
+                "outbound": {
+                    "min": 30, 
+                    "typical": 90,
+                    "max": 180
+                }
+            }
+        },
+        {
+            "id": "TM002",
+            "name": "Rantau Panjang-Su-ngai Kolok",
+            "countries": ["Thailand", "Malaysia"],
+            "operating_hours": {
+                "start": "05:00",
+                "end": "21:00"
+            },
+            "customs_fees": {
+                "base_fee": 158,
+                "tax_of_goods_not_transit": 0.1 
+            },
+            "processing_times": {
+                "inbound": {
+                    "min": 100,
+                    "typical": 180,
+                    "max": 360
+                },
+                "outbound": {
+                    "min": 30, 
+                    "typical": 90,
+                    "max": 180
+                }
+            }
+        },
+        {
+            "id": "MS001",
+            "name": "Johor Bahru-Woodlands",
+            "countries": ["Malaysia", "Singapore"],
+            "operating_hours": {
+                "start": "00:00",
+                "end": "24:00"
+            },
+            "customs_fees": {
+                "base_fee": 158,
+                "tax_of_goods_not_transit": 0.08 
+            },
+            "processing_times": {
+                "inbound": {
+                    "min": 30,
+                    "typical": 90,
+                    "max": 120
+                },
+                "outbound": {
+                    "min": 30, 
+                    "typical": 60,
+                    "max": 90
+                }
+            }
+        }
+      ]
+    }
+  }

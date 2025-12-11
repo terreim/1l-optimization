@@ -1,0 +1,53 @@
+{
+    "fleet": [
+      {
+        "id": "V001", 
+        "type": "standard_truck",
+        "dimensions": {
+          "length": 11.552,
+          "width": 2.358,
+          "height": 2.451
+        },
+        "max_weight": 26670,
+        "fuel_capacity": 500,
+        "fuel_efficiency": 0.3
+      },
+      {
+        "id": "V002",
+        "type": "standard_truck", 
+        "dimensions": {
+          "length": 11.552,
+          "width": 2.358,
+          "height": 2.451
+        },
+        "max_weight": 26670,
+        "fuel_capacity": 500,
+        "fuel_efficiency": 0.3
+      },
+      {
+        "id": "V003",
+        "type": "standard_truck", 
+        "dimensions": {
+          "length": 11.552,
+          "width": 2.358,
+          "height": 2.451
+        },
+        "max_weight": 26670,
+        "fuel_capacity": 500,
+        "fuel_efficiency": 0.3
+      }
+      ,
+      {
+        "id": "V004",
+        "type": "standard_truck", 
+        "dimensions": {
+          "length": 11.552,
+          "width": 2.358,
+          "height": 2.451
+        },
+        "max_weight": 26670,
+        "fuel_capacity": 500,
+        "fuel_efficiency": 0.3
+      }
+    ]
+  }
